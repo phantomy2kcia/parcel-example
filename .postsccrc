@@ -1,6 +1,9 @@
 {
     "modules" : true
     "plugins":{
+        "posthtml-img-autosize:{
+            "root" : "./images"
+        }
         "autoprefixer" : {
             "browsers" : {
                 "> 1%",
